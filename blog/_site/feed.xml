@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Henry Zhao</title>
+    <description>Loving code and design and things in between
+</description>
+    <link>http://hzhao.me/</link>
+    <atom:link href="http://hzhao.me/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 16 Jan 2017 16:36:58 -0500</pubDate>
+    <lastBuildDate>Mon, 16 Jan 2017 16:36:58 -0500</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Book Order Bots With Selenium</title>
+        <description>&lt;h1 id=&quot;bots-that-automatically-place-orders-by-getting-json-file&quot;&gt;Bots that automatically place orders by getting JSON file&lt;/h1&gt;
+
+&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Built bots based on Selenium with Python to place book orders by automating browser behavior. Bots were able to login, fill the shipment form, choose different ship options and record the total order price. A super bot would accept an order in JSON format and call each bot by integrating APIs.&lt;/li&gt;
+    &lt;li&gt;Used Selenium IDE to record a generic user behavior on Firefox and generate unit test suites in Python. Used Selenium WebDriver to scale and distribute scripts across many environments.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;demo-for-textbookscom-bot&quot;&gt;Demo for textbooks.com bot&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/article_images/2017-1-1-bookbot/textbook.gif&quot; alt=&quot;textbook bot&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;story-behind-it&quot;&gt;Story behind it&lt;/h2&gt;
+&lt;hr /&gt;
+&lt;p&gt;It was a pretty amazing experience that 6 of us got together and built 8 bots for bookbandit.com within 4 days. Before that, I had never built a bot and only knew that Selenium was used for browser testing.&lt;/p&gt;
+
+&lt;p&gt;Since Andy was going to deliver 8 bots to the client on Jan 2nd, and we started on Dec 27th, we had to work day and night to complete everything from scratch. We actually built a sample version of bots, but the styles varied, we had to use selenium IDE to refactor all bots.&lt;/p&gt;
+
+&lt;p&gt;We met all kinds of problems in the process, the biggest one coming from cheggs.com, which would recognize bots behavior if we made bots move too fast or sent requests too many times from the same IP address. So we had to set &lt;code&gt;time.sleep()&lt;/code&gt;to make a pause. Other problems came from selecting HTML tags, choosing different paths for different UIs, etc.&lt;/p&gt;
+
+&lt;p&gt;Teddy said he used Selenium to do ‘evil things’ to get concerts tickets, which is what Selenium is so good at. I knew this kind of exploits of bots before, but I did not realize this was how they worked.&lt;/p&gt;
+
+&lt;p&gt;Highly-pressed but rewarding journey anyway.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Jan 2017 15:13:11 -0500</pubDate>
+        <link>http://hzhao.me/project/2017/01/02/bookbot.html</link>
+        <guid isPermaLink="true">http://hzhao.me/project/2017/01/02/bookbot.html</guid>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Gee-Mail Project</title>
+        <description>&lt;h1 id=&quot;a-secure-asynchronous-same-machine-message-platform&quot;&gt;A secure asynchronous (same-machine) message platform&lt;/h1&gt;
+
+&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Senders and Receivers use a shared passphrase to communicate with each other. &lt;/li&gt;
+    &lt;li&gt;Messages are encrypted by using SHA-256, salt, stretch and Salsa20&lt;/li&gt;
+    &lt;li&gt;Use a costomized hash function and salt for password encryption.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/HanchengZhao/gee-mail&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;demo-video&quot;&gt;Demo video&lt;/h1&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/i1eZEVqvjis&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Sat, 10 Dec 2016 15:13:11 -0500</pubDate>
+        <link>http://hzhao.me/project/2016/12/10/gee-mail.html</link>
+        <guid isPermaLink="true">http://hzhao.me/project/2016/12/10/gee-mail.html</guid>
+        
+        <category>regular</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Minesweeper Project</title>
+        <description>&lt;h1 id=&quot;command-line-minesweeper-written-in-c&quot;&gt;Command-Line Minesweeper. Written in C++.&lt;/h1&gt;
+
+&lt;h1 id=&quot;how-to-play&quot;&gt;How to play&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Set the size of game board&lt;/li&gt;
+  &lt;li&gt;Pick a square by inputting the row and column number&lt;/li&gt;
+  &lt;li&gt;Click any square, preferably towards the middle&lt;/li&gt;
+  &lt;li&gt;The first square clicked is never a bomb&lt;/li&gt;
+  &lt;li&gt;Click known safe squares&lt;/li&gt;
+  &lt;li&gt;You lose if you pick a square of mine&lt;/li&gt;
+  &lt;li&gt;You win if all squares but mines are uncovered&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/YeWang0/Mine-sweeper&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;demo-video&quot;&gt;Demo video&lt;/h1&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/IOi0Z2NH95A&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Fri, 09 Dec 2016 17:46:11 -0500</pubDate>
+        <link>http://hzhao.me/project/2016/12/09/minesweeper.html</link>
+        <guid isPermaLink="true">http://hzhao.me/project/2016/12/09/minesweeper.html</guid>
+        
+        <category>regular</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+      <item>
+        <title>Markovian Chain Project</title>
+        <description>&lt;h1 id=&quot;a-markov-chain-text-generator-by-crawling-tweets-from-a-username&quot;&gt;A Markov Chain text generator by Crawling tweets from a username&lt;/h1&gt;
+
+&lt;h1 id=&quot;features&quot;&gt;Features&lt;/h1&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;A bot which accepts username and generate tweets in that user’s style, implemented by simple Markov Chain text generator.&lt;/li&gt;
+    &lt;li&gt;Markov chain length can be customed in order to determine how related the words should be.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/HanchengZhao/Markovian-tweets&quot;&gt;Github link&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;demo-video&quot;&gt;Demo video&lt;/h1&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/V8EDltZLS5g&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+</description>
+        <pubDate>Thu, 08 Dec 2016 15:13:11 -0500</pubDate>
+        <link>http://hzhao.me/project/2016/12/08/Markovian-Chain.html</link>
+        <guid isPermaLink="true">http://hzhao.me/project/2016/12/08/Markovian-Chain.html</guid>
+        
+        <category>regular</category>
+        
+        
+        <category>project</category>
+        
+      </item>
+    
+  </channel>
+</rss>
